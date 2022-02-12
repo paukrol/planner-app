@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <p>
         Created by{" "}
-        <a href="https://github.com/paukrol" target="_blank">
+        <a href="https://github.com/paukrol/planner-app" target="_blank">
           Paulina Król
         </a>{" "}
         &copy; {new Date().getFullYear()}{" "}
