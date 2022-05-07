@@ -15,6 +15,8 @@ const PlanDetails = ({
 
   const currentPlan = allPlans.find((plan) => plan.id.toString() === id);
 
+//   console.log(currentPlan);
+
   const handleDelete = (id) => {
     const listPlans = allPlans.filter((item) => item.id !== id);
 

@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { GiLindenLeaf } from "react-icons/gi";
-import { useEffect } from "react/cjs/react.development";
+// import { useEffect } from "react/cjs/react.development";
 import Input from "./Input";
 
 const EditPlan = ({ allPlans, setAllPlans }) => {
